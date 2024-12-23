@@ -1,0 +1,12 @@
+// Your keyboard scan (kscan) driver, 
+// which determines which GPIO pins to scan for key press events
+
+// Your matrix transform, which acts as a 
+// "bridge" between the kscan and the keymap
+
+// Your physical layout, which aggregates the above and (optionally) 
+// defines physical 
+// key positions so that the keyboard can be used with ZMK Studio. 
+ 
+ #include "dactylFull.dtsi"
+ 
